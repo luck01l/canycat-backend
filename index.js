@@ -4,11 +4,8 @@ const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-// Configura CORS explícitamente
 app.use(cors({
-  origin: 'http://localhost:3000', // Solo permite tu frontend local
-  methods: ['GET', 'POST'],
-  allowedHeaders: ['Content-Type'],
+  origin: '*', // 👈 permite cualquier frontend (React local o Render)
 }));
 
 app.use(express.json());
