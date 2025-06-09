@@ -4,17 +4,17 @@ const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-app.use(cors({
-  origin: '*', // 👈 permite cualquier frontend (React local o Render)
-}));
-
+app.use(cors());
 app.use(express.json());
 
 app.get('/api/products', (req, res) => {
   res.json([
-    { id: 1, name: 'Alimento para perros' },
-    { id: 2, name: 'Juguete para gatos' },
-    { id: 3, name: 'Shampoo antiséptico' }
+    { id: 1, name: 'Alimento para perros', category: 'Alimento' },
+    { id: 2, name: 'Juguete para gatos', category: 'Juguetes' },
+    { id: 3, name: 'Shampoo antiséptico', category: 'Higiene' },
+    { id: 4, name: 'Croquetas para gatos', category: 'Alimento' },
+    { id: 5, name: 'Pelota para perros', category: 'Juguetes' },
+    { id: 6, name: 'Cepillo dental canino', category: 'Higiene' }
   ]);
 });
 
