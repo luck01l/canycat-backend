@@ -16,7 +16,7 @@ app.get('/api/products', (req, res) => {
       description: 'Alimento balanceado para perros adultos de razas medianas y grandes.',
       price: 520,
       stock: 10,
-      image: 'https://i.imgur.com/U7zPBsK.jpg'
+      image: 'https://placekitten.com/300/200'
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ app.get('/api/products', (req, res) => {
       description: 'Consulta médica para cualquier mascota. Evaluación completa.',
       price: 300,
       stock: 50,
-      image: 'https://i.imgur.com/pypHVqD.jpg'
+      image: 'https://imgur.com/a/EtvrQkD.jpg'
     },
     {
       id: 3,
