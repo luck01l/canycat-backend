@@ -25,7 +25,7 @@ app.get('/api/products', (req, res) => {
       description: 'Consulta médica para cualquier mascota. Evaluación completa.',
       price: 300,
       stock: 50,
-      image: 'https://imgur.com/a/EtvrQkD.jpg'
+      image: 'https://images.app.goo.gl/SUcKKnGeDn3GwC97A.png'
     },
     {
       id: 3,
