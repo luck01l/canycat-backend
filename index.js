@@ -16,7 +16,8 @@ app.get('/api/products', (req, res) => {
       description: 'Alimento balanceado para perros adultos de razas medianas y grandes.',
       price: 520,
       stock: 10,
-      image: 'https://placekitten.com/300/200'
+      image: 'https://source.unsplash.com/300x200/?dog'
+
     },
     {
       id: 2,
@@ -25,7 +26,7 @@ app.get('/api/products', (req, res) => {
       description: 'Consulta médica para cualquier mascota. Evaluación completa.',
       price: 300,
       stock: 50,
-      image: 'https://images.app.goo.gl/SUcKKnGeDn3GwC97A.png'
+      image: 'https://placekitten.com/300/200'
     },
     {
       id: 3,
@@ -34,7 +35,7 @@ app.get('/api/products', (req, res) => {
       description: 'Aplicación de vacuna contra la rabia para perros y gatos.',
       price: 150,
       stock: 25,
-      image: 'https://i.imgur.com/gkErkzr.jpg'
+      image: '/images/alimento.jpg'
     },
     {
       id: 4,
@@ -43,7 +44,7 @@ app.get('/api/products', (req, res) => {
       description: 'Cepillo ergonómico para mantener limpios los dientes de tu mascota.',
       price: 80,
       stock: 30,
-      image: 'https://i.imgur.com/FBXByOY.jpg'
+      image: 'https://source.unsplash.com/300x200/?dog'
     },
     {
       id: 5,
